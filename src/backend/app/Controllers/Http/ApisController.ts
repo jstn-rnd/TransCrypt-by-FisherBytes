@@ -16,17 +16,7 @@ export default class ApisController {
     }
 
     static async insert_configuration(request: Request, response: Response){
-        const { key, value } = request.body;
-        await Configuration.insert({key, value});
-
-        const checkIfExist = await Configuration.findBy({ key });
-
-        if(!checkIfExist){
-            response.json({
-                status: 0,
-                message: "Configuration already exists!"
-            });
-        }
+        const { key, value } = request.body; 
 
         response.json({
             status: 1,
