@@ -86,10 +86,6 @@ TypeORM (for database entities)
    Arandia, Justine M.
 
    Crisostomo, Marc Ashley F.
-## 💻 Demo
-
-Insert gif or link to demo
-
 
 ## ⚡️ Github Repository:
 https://github.com/bowtsogakow/ICPHackaton2024-FisherBytes.git
